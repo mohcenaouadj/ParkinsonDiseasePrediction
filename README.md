@@ -5,3 +5,17 @@ Parkinson’s Disease (PD) is a degenerative neurological disorder marked by dec
 Traditional diagnosis of Parkinson’s Disease involves a clinician taking a neurological history of the patient and observing motor skills in various situations. Since there is no definitive laboratory test to diagnose PD, diagnosis is often difficult, particularly in the early stages when motor effects are not yet severe. Monitoring progression of the disease over time requires repeated clinic visits by the patient. An effective screening process, particularly one that doesn’t require a clinic visit, would be beneficial. Since PD patients exhibit characteristic vocal features, voice recordings are a useful and non-invasive tool for diagnosis. If machine learning algorithms could be applied to a voice recording dataset to accurately diagnosis PD, this would be an effective screening step prior to an appointment with a clinician. 
 
 ![image](https://github.com/mohcenaouadj/ParkinsonDiseasePrediction/blob/main/FP-CIT-PET-images-in-Parkinsons-disease.png)
+
+The PD Speech data-set used
+in this experiment exhibits huge dimensionality with comparatively less
+data-points. Our proposed model introduced different data preprocess-
+ing methods, such as data standardization, multicolinearity diagnosis,
+dimensionality reduction technique to improve the quality of data. Dif-
+ferent Machine Learning (ML) classifiers (k-nearest Neighbour, Support
+Vector Machine, Random Forest, AdaBoost, Logistic Regression) were
+used for classification of PD. Hyper-parameter tuning, cross fold valida-
+tion and grid search were employed in this experiment to maximize the
+performance of the classifiers and preserve the class distribution of the
+imbalanced data-set. My proposed model achieved a highest accuracy
+of 94.10% which outperformed the previous experiments on the same
+data-set by roughly 8.00%
