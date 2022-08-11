@@ -1,21 +1,17 @@
 # Parkinson Disease Prediction
 
-Parkinson’s Disease (PD) is a degenerative neurological disorder marked by decreased dopamine levels in the brain. It manifests itself through a deterioration of movement, including the presence of tremors and stiffness. There is commonly a marked effect on speech, including dysarthria (difficulty articulating sounds), hypophonia (lowered volume), and monotone (reduced pitch range). Additionally, cognitive impairments and changes in mood can occur, and risk of dementia is increased.
+Traditional diagnosis of Parkinson’s Disease involves a clinician taking a neurological history of the patient and observing motor skills in various situations. Since PD patients exhibit characteristic vocal features, voice recordings are a useful and non-invasive tool for diagnosis. The purpose of this project is to apply machine learning algorithms in order to predict the possibly of diagnose PD.
 
-Traditional diagnosis of Parkinson’s Disease involves a clinician taking a neurological history of the patient and observing motor skills in various situations. Since there is no definitive laboratory test to diagnose PD, diagnosis is often difficult, particularly in the early stages when motor effects are not yet severe. Monitoring progression of the disease over time requires repeated clinic visits by the patient. An effective screening process, particularly one that doesn’t require a clinic visit, would be beneficial. Since PD patients exhibit characteristic vocal features, voice recordings are a useful and non-invasive tool for diagnosis. If machine learning algorithms could be applied to a voice recording dataset to accurately diagnosis PD, this would be an effective screening step prior to an appointment with a clinician. 
+![image](https://github.com/mohcenaouadj/ParkinsonDiseasePrediction/blob/9e5682e82e98039cf88ab6fa72610d8e46faf20f/298402429_1033548500680910_7630296487131382460_n.jpg)
 
-![image](https://github.com/mohcenaouadj/ParkinsonDiseasePrediction/blob/main/FP-CIT-PET-images-in-Parkinsons-disease.png)
+My proposed model introduced different data preprocessing methods, such as ; 
+- Data standardization, multicollinearity diagnosis, dimensionality reduction technique to improve the quality of data.
 
-The PD Speech data-set used
-in this experiment exhibits huge dimensionality with comparatively less
-data-points. Our proposed model introduced different data preprocess-
-ing methods, such as data standardization, multicolinearity diagnosis,
-dimensionality reduction technique to improve the quality of data. Dif-
-ferent Machine Learning (ML) classifiers (k-nearest Neighbour, Support
-Vector Machine, Random Forest, AdaBoost, Logistic Regression) were
-used for classification of PD. Hyper-parameter tuning, cross fold valida-
-tion and grid search were employed in this experiment to maximize the
-performance of the classifiers and preserve the class distribution of the
-imbalanced data-set. My proposed model achieved a highest accuracy
-of 94.10% which outperformed the previous experiments on the same
-data-set by roughly 8.00%
+Different Machine Learning (ML) classifiers were used for classification of PD :
+- k-nearest Neighbour, Support Vector Machine, Random Forest, AdaBoost, Logistic Regression
+
+- Hyperparameter tuning, cross fold validation and grid search were employed in this experiment to maximize the performance of the classifiers and preserve the class distribution of the imbalanced data-set.
+
+My proposed model achieved the highest accuracy of 94.10% which outperformed the previous experiments on the same data-set by roughly 8.00%.
+
+![image](https://github.com/mohcenaouadj/ParkinsonDiseasePrediction/blob/9e5682e82e98039cf88ab6fa72610d8e46faf20f/__results___30_0.png)
